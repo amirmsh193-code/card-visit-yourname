@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>گالری من</title>
+  <style>
+    body {
+      font-family: Tahoma, sans-serif;
+      margin: 20px;
+      background-color: #f8f8f8;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #0077cc;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    h1 {
+      color: #333;
+    }
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+    .gallery-item {
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      width: 250px;
+    }
+    .gallery-item img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .caption {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">خانه</a> |
+    <a href="gallery.html">گالری</a> |
+    <a href="research.html">تحقیق</a>
+  </nav>
+
+  <h1>گالری تصاویر من</h1>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="images/image.food.jpg" alt="پیتزا">
+      <div class="caption">غذای مورد علاقه من: پیتزا</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/image.car.jpg" alt="ماشین">
+      <div class="caption">ماشین مورد علاقه من</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/image.movie.jpg" alt="ونوم">
+      <div class="caption">فیلم مورد علاقه من: ونوم</div>
+    </div>
+  </div>
+</body>
+</html>
